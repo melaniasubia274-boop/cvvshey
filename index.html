@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Currículum Vitae · Perfil Profesional</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EFE6D6;--surface:#E4D7BF;--ink:#2B211B;--muted:#6B5A4C;--accent:#8A6338;--accent-ink:#fff;--line:#CDBB9A;--dark:#2B211B;--dark-ink:#EFE6D6;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1F1813;--surface:#2B211B;--ink:#EFE6D6;--muted:#BBA98F;--accent:#C79A63;--accent-ink:#1F1813;--line:#44362B;--dark:#120D0A;--dark-ink:#EFE6D6;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1F1813;--surface:#2B211B;--ink:#EFE6D6;--muted:#BBA98F;--accent:#C79A63;--accent-ink:#1F1813;--line:#44362B;--dark:#120D0A;--dark-ink:#EFE6D6;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.6 Jost,system-ui,sans-serif}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;line-height:1.1;margin:0}
+button{font:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 5vw;border-bottom:1px solid var(--line)}
+.logo{font-family:"Cormorant Garamond",serif;font-size:30px;font-weight:700;letter-spacing:.02em}
+.contact-tag{background:none;border:1px solid var(--ink);color:var(--ink);padding:9px 18px;border-radius:999px;font-size:14px;text-decoration:none;display:inline-block}
+
+.hero{display:grid;grid-template-columns:1.2fr .8fr;min-height:75vh;align-items:center}
+.hero-text{padding:8vh 5vw;display:flex;flex-direction:column;justify-content:center;gap:20px}
+.hero h1{font-size:clamp(38px,6vw,72px);font-weight:700}
+.hero h2{font-size:24px;color:var(--accent);font-family:Jost,sans-serif;font-weight:500}
+.hero p{max-width:44ch;color:var(--muted);font-size:17px;margin:0}
+.hero-contact{display:flex;flex-wrap:wrap;gap:16px;font-size:15px;color:var(--muted);margin-top:10px}
+.hero-contact span{display:flex;align-items:center;gap:6px}
+
+.hero-art{background:var(--surface);display:grid;place-items:center;padding:6vh 4vw;position:relative;overflow:hidden;height:100%}
+.profile-photo-container{width:min(82%,320px);aspect-ratio:3/4;border-radius:6px;overflow:hidden;box-shadow:0 18px 24px rgba(43,33,27,.25);border:3px solid var(--line)}
+.profile-photo-container img{width:100%;height:100%;object-fit:cover;display:block}
+
+section.cv-section{padding:8vh 5vw;border-top:1px solid var(--line)}
+.section-title{font-size:clamp(30px,4vw,44px);margin-bottom:40px}
+
+.grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:40px}
+
+.cv-card{background:var(--surface);padding:32px;border-radius:6px;display:flex;flex-direction:column;gap:14px;border:1px solid var(--line)}
+.cv-card h3{font-size:26px}
+.cv-card .date{font-size:14px;color:var(--accent);font-weight:500;text-transform:uppercase;letter-spacing:.05em}
+.cv-card p{color:var(--muted);margin:0;font-size:15px}
+
+.skills-grid{display:flex;flex-wrap:wrap;gap:12px}
+.skill-badge{background:var(--surface);border:1px solid var(--line);padding:10px 20px;border-radius:999px;font-size:15px;font-weight:500}
+
+.care{background:var(--surface);border-top:1px solid var(--line);color:var(--ink);padding:7vh 5vw;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:30px}
+.care h3{font-size:24px;margin-bottom:6px}
+.care p{margin:0;color:var(--muted);font-size:15px}
+
+footer{padding:36px 5vw;color:var(--muted);font-size:14px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;border-top:1px solid var(--line)}
+
+@media(max-width:760px){.hero{grid-template-columns:1fr}.hero-art{min-height:50vh}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Portafolio & CV</div>
+  <a class="contact-tag" href="#contacto">Contacto directo</a>
+</header>
+
+<main>
+<div class="hero">
+  <div class="hero-text">
+    <h1>Nombre Apellido</h1>
+    <h2>Especialista en Administración y Gestión Profesional</h2>
+    <p>Profesional orientada a resultados, con sólida formación, capacidad de liderazgo, adaptabilidad y compromiso con la excelencia operativa y estratégica.</p>
+    <div class="hero-contact">
+      <span>📍 Juliaca, Puno, Perú</span>
+      <span>✉️ correo@ejemplo.com</span>
+      <span>📞 +51 900 000 000</span>
+    </div>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <div class="profile-photo-container">
+      <img src="WhatsApp Image 2026-11-10 at 11.22.46 AM.jpeg" alt="Fotografía profesional">
+    </div>
+  </div>
+</div>
+
+<section class="cv-section" id="experiencia">
+  <h2 class="section-title">Experiencia Laboral</h2>
+  <div class="grid-2">
+    <div class="cv-card">
+      <span class="date">2024 - Presente</span>
+      <h3>Asistente de Gestión y Operaciones</h3>
+      <p><strong>Empresa / Institución</strong></p>
+      <p>Coordinación de procesos administrativos, atención orientada a la satisfacción de clientes/usuarios, optimización de flujos de trabajo internos y control de documentación.</p>
+    </div>
+    <div class="cv-card">
+      <span class="date">2022 - 2024</span>
+      <h3>Ejecutiva de Atención y Soporte</h3>
+      <p><strong>Compañía de Servicios</strong></p>
+      <p>Gestión de cuentas, resolución eficiente de incidencias, redacción de reportes periódicos y trato directo con proveedores y socios estratégicos.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cv-section" id="educacion">
+  <h2 class="section-title">Educación y Formación</h2>
+  <div class="grid-2">
+    <div class="cv-card">
+      <span class="date">2018 - 2022</span>
+      <h3>Grado en Administración / Carrera Afín</h3>
+      <p><strong>Universidad o Instituto Superior</strong></p>
+      <p>Formación académica integral enfocada en gestión, liderazgo de equipos, finanzas corporativas y planificación estratégica.</p>
+    </div>
+    <div class="cv-card">
+      <span class="date">2023</span>
+      <h3>Especialización en Herramientas Digitales</h3>
+      <p><strong>Centro de Capacitación Profesional</strong></p>
+      <p>Curso intensivo de modernización de procesos, ofimática avanzada y gestión de bases de datos.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cv-section" id="habilidades">
+  <h2 class="section-title">Habilidades y Competencias</h2>
+  <div class="skills-grid">
+    <div class="skill-badge">Gestión de Proyectos</div>
+    <div class="skill-badge">Comunicación Asertiva</div>
+    <div class="skill-badge">Resolución de Problemas</div>
+    <div class="skill-badge">Trabajo en Equipo</div>
+    <div class="skill-badge">Organización y Planificación</div>
+    <div class="skill-badge">Adaptabilidad al Cambio</div>
+    <div class="skill-badge">Orientación al Detalle</div>
+    <div class="skill-badge">Ofimática y Sistemas</div>
+  </div>
+</section>
+
+<section class="care" id="contacto">
+  <div>
+    <h3>Idiomas</h3>
+    <p>Español (Nativo) · Inglés (Intermedio)</p>
+  </div>
+  <div>
+    <h3>Disponibilidad</h3>
+    <p>Inmediata para proyectos a tiempo completo o parcial.</p>
+  </div>
+  <div>
+    <h3>Valores</h3>
+    <p>Responsabilidad, ética profesional, empatía y proactividad.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <span>© 2026 Perfil Profesional · CV</span>
+  <span>Disponible para nuevas oportunidades laborales</span>
+</footer>
+
+</body>
+</html>
